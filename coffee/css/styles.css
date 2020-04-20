@@ -21,7 +21,9 @@ h2 {
         margin-right: auto;
 }
 header {
-   background-image: url(../images/paul-gilmore-145802-unsplash.jpg);
+   background-image: url(../images/paul-gilmore-145802-unsplash.jpg
+
+   );
    background-size: cover;
    background-position: center; 
    padding-top: 1rem;
