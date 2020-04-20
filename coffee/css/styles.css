@@ -12,7 +12,7 @@ h1 {
     margin-bottom: 0rem;    
 }
 h2 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
 
 }
 .container {
@@ -41,14 +41,15 @@ dt {
 }
 dd {
     margin-left: auto;
-    margin-bottom: 1.0rem}
+    margin-bottom: 1.0rem;
+}
 main {
     background-color: #E0E0E0;
     line-height: 1.5;
 }
 img {
     float: right; 
-    max-width: 300px
+    max-width: 300px;
  }
 footer {
     background-color:#3E1305;
