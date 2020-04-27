@@ -1,0 +1,22 @@
+{
+  "name": "coursework-caytiem",
+  "version": "1.0.0",
+  "description": "* [x] Week 1 - Managing files challenge\r * [x] Week 2 - Encoding in HTML challenge\r * [ ] Week 3 - Adding some style challenge\r * [ ] Week 4 - Responding to the device challenge\r * [ ] Week 5 - Leveraging CSS frameworks challenge\r * [ ] Week 6 - Programming in JavaScript challenge\r * [ ] Week 7 - Altering the page challenge\r * [ ] Week 8 - Creating content from data challenge\r * [ ] Week 9 - Querying web services challenge\r * [ ] Week 10 - Putting it all together challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync  start --server --files='**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imt-549-sp20/coursework-caytiem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imt-549-sp20/coursework-caytiem/issues"
+  },
+  "homepage": "https://github.com/imt-549-sp20/coursework-caytiem#readme",
+  "dependencies": {}
+}
