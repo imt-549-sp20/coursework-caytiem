@@ -2,3 +2,111 @@ html {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-size: 16px;
 }
+footer {
+    background-color: #3E1305;    
+    color: white;
+}
+footer p {
+    margin: 0px;
+    padding: 2rem 0px 2rem 0px;
+}
+footer a {
+    color: white;
+}
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;   
+}
+header {
+    background: linear-gradient(90deg, #3E1305,#8A2811);
+    color: white;
+}
+header h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0px;
+    padding-top: 1rem;
+}
+p {
+    padding-left: 1rem;
+}
+h2 {
+    padding-left: 1rem;
+}
+header .tagline {
+    font-weight: 300;
+    margin: 0px;
+    padding-left: 0px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+svg {
+    height: 64px;
+    width: 64px;
+    fill: #8A2811
+}
+ul.features{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box; /* include padding and border is size calcs */
+  }
+ul.features li {
+    display: flex;
+}
+ul.features .feature-icon {
+    padding: 1rem;
+}
+ul.features .feature-descr {
+    flex-grow: 1;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 750px;
+    font-size: 1rem;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+.features li {
+    flex-basis: 50%;
+}
+header {
+    background-size: cover;
+    background-image: url(../images/angelina-litvin-32188-unsplash.jpg);
+    background-position: bottom 0px right 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: black;
+}
+header h1 {
+    font-size: 5rem;
+}
+header .tagline {
+    font-size: 1.5rem;
+    width: 50%;
+}
+}
+@media (min-width: 992px) {
+.container {
+    max-width: 970px;
+}
+header {
+    padding-top: 150px;
+}
+.features li {
+    flex-basis: 33%;
+}
+}
+@media (min-width: 1200px) {
+.container {
+    max-width: 1170px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}    
+}
