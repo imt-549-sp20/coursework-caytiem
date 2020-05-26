@@ -66,7 +66,7 @@ function isMovieFound (movie){
     // make the movie title lowercase
     var lowercaseTitle = movie.title.toLowerCase();
 
-    if (lowercaseTitle.indexOf(lowercaseUserInput) >= 0){
+    if (lowercaseTitle.indexOf(lowercaseUserInput) !== -1){
         return true;
     } else {
         return false;
