@@ -66,7 +66,7 @@ function isMovieFound (movie){
     // make the movie title lowercase
     var lowercaseTitle = movie.title.toLowerCase();
 
-    if (lowercaseTitle.indexOf(lowercaseUserInput) !== -1){
+    if (lowercaseTitle.indexOf(lowercaseUserInput) >= 0){
         return true;
     } else {
         return false;
@@ -79,5 +79,5 @@ searchInput.addEventListener("input", function () {
     var filtered_movies = MOVIES.filter(isMovieFound); 
 
     //update the movie table with the new list
-    renderMovie(filtered_movies);
+    renderMovies(filtered_movies);
 });
