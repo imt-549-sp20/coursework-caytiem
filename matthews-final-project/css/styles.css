@@ -1,0 +1,96 @@
+html {
+    font-size: 16px;
+}
+header {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url(../img/flower.jpg);
+    background-position: bottom 0px right 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+main {
+    font-family: "Courier New", Courier, monospace;
+}
+li {
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0em;
+}
+body {
+    margin: 0em;
+}
+div.feature-description {
+    background-color: white;
+}
+
+ul.features {
+    list-style: none;
+    padding-left: 0em;
+    margin-bottom: 0rem;
+    ;
+}
+* {
+    box-sizing: border-box; /* include padding and border is size calcs */
+}
+ul.features li {
+    display: flex;
+}
+ul.features .feature-icon {
+    padding: 1rem;
+    background-color: white;
+}
+ul.features .feature-description {
+    flex-grow: 1;
+    padding: 1rem;
+    padding-top: 2rem;
+    background-color: white;
+}
+footer {
+    background-image: url(../img/flower.jpg);
+    background-position: bottom 0px right 0px;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+footer p{
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 11px;
+}
+svg {
+    height: 64px;
+    width: 64px;
+    fill: blue;
+}
+
+@media (min-width: 768px) {
+    .container {
+      max-width: 750px;
+      font-size: 1rem;
+    }
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .features li {
+        flex-basis: 33%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 970px;
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px;
+    }
+   
+  }
+  
